@@ -5,16 +5,16 @@ export default function () {
   const pushScript = useState<string>('push-notification-script', () => '')
 
   const popunderAds = [
-    {
-      id: '/js/popunder.js?v=7',
-      weight: 1,
-      provider: 'Adsession'
-    },
     // {
-    //   id: 'https://messyadvance.com/ckDt9/6Fb.2/5/ltSWWDQe9VNRThUn2/M/D/AH4/MFCG0j1-NrT/YHw/MBDWgHx-',
+    //   id: '/js/popunder.js?v=7',
     //   weight: 1,
-    //   provider: 'Hilltopads'
-    // }
+    //   provider: 'Adsession'
+    // },
+    {
+      id: 'https:////ellipticaltrack.com/c.D/9v6/bW2/5aleSRW/Qj9SNojrA/zWMxTuk_zvNoiJ0S2kMgDBMux_OXTCMU3Z',
+      weight: 1,
+      provider: 'Hilltopads'
+    },
     {
       id: '/js/popunder2.js?v=1',
       weight: 1,
@@ -32,7 +32,7 @@ export default function () {
       id: 'https://udzpel.com/pw/waWQiOjExOTMwMzUsInNpZCI6MTQwNzY1NSwid2lkIjo2ODMzODcsInNyYyI6Mn0=eyJ.js',
       weight: 1,
       provider: 'EvaDav'
-    },
+    }
     // {
     //   id: 'https://imdcn.inppcdn.com/ipp.js?id=fEDzW8oY_k6ti_MQVUi94w',
     //   weight: 1,
